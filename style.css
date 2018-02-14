@@ -1,0 +1,19 @@
+#root {
+  font-family: Lato;
+  width: 325px;
+  margin: 60px auto;
+  box-shadow: none;
+}
+input{
+  height: 42px;
+}
+li{
+  height: 44px;
+}
+click-state{
+  text-decoration: line-through;
+}
+.btn:focus,.btn:active,input[type="text"]:focus {
+   outline: none !important;
+   box-shadow: none !important;
+}
